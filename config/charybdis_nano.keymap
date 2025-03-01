@@ -40,12 +40,6 @@
     quick-tap-ms = <170>;
 };
 
-
-
-
-/ {
-
-
 &trackball_listener {
     scroller {
         layers = <1>;
@@ -60,6 +54,12 @@
         input-processors = <&zip_xy_scaler 1 3>;
     };
 };
+
+
+/ {
+
+
+
 
 
 
