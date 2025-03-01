@@ -41,6 +41,11 @@
 };
 
 
+
+
+/ {
+
+
 &trackball_listener {
     scroller {
         layers = <1>;
@@ -56,7 +61,8 @@
     };
 };
 
-/ {
+
+
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
