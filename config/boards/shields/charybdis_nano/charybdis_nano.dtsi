@@ -136,8 +136,9 @@ charybdis_nano: charybdis_nano {
         };
     };
 };
+};
 
-#include <zephyr/dt-bindings/input/input-event-codes.h>
+
 
 &spi0 {
     status = "okay";
@@ -163,6 +164,6 @@ charybdis_nano: charybdis_nano {
 
 
 
-};
+
 
 
