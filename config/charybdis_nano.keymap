@@ -72,7 +72,7 @@
         combo_GUI {
             timeout-ms = <50>;
             key-positions = <31 44>;
-            bindings = <&mmv MOVE_DOWN>;
+            bindings = <&msc SCRL_DOWN>;
         };
     };
 
